@@ -35,19 +35,16 @@ export default {
     data() {
         return {
             files: [],
-            groupedWords: [
-                {name: 'You', amount: 400},
-                {name: 'He', amount: 100},
-                {name: 'I', amount: 500}
-            ]
+            groupedWords: []
         }
     },
     methods: {
         processSubtitles() {
-            console.log(this.files);
-            ipcRenderer.send('blabla', 'ping');
-            ipcRenderer.on('blabla', (event, resp) => {
+            const paths = this.files.map(f => f.path);
+            ipcRenderer.send('process-subtitles', paths);
+            ipcRenderer.on('process-subtitles', (event, resp) => {
                 console.log(resp);
+                this.groupedWords = resp;
             });
         }
     }
