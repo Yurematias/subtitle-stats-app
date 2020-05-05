@@ -1,6 +1,6 @@
 {
-  "name": "vuelectron-media-subs",
-  "title": "vuelectron-media-subs",  
+  "name": "subtitle-stats",
+  "title": "subtitle-stats",
   "version": "0.1.0",
   "private": true,
   "scripts": {

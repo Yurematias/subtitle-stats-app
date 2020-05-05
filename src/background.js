@@ -29,7 +29,7 @@ function createWindow () {
     // Load the index.html when not in development
     win.loadURL('app://./index.html')
   }
-
+  
   // método de ciclo de vida que é chamado sempre que a tela finaliza o carregamento
   win.webContents.on('did-finish-load', () => {
     const { title, version } = require('../package.json');
