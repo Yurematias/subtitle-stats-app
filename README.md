@@ -1,6 +1,6 @@
 <h1 align="center"> 🎞 Subtitle Stats</h1>
 
-<p>
+<p align="center">
     Desktop app that shows the most used words in a movie/serie subtitle in a .srt file format
 </p>
 
