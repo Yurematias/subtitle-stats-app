@@ -1,4 +1,12 @@
-# vuelectron-media-subs
+<h1 align="center"> 🎞 Subtitle Stats</h1>
+
+<p>
+    Desktop app that shows the most used words in a movie/serie subtitle in a .srt file format
+</p>
+
+<div align="center">
+    <img src="./screenshots/screenshot.png"/>
+</div>
 
 ## Project setup
 ```
