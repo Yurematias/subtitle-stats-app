@@ -5,7 +5,7 @@
 </p>
 
 <div align="center">
-    <img src="./screenshots/screenshot.png"/>
+    <img src="./screenshots/screenshot.JPG"/>
 </div>
 
 ## Project setup
